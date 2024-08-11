@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+ /* header{
+    background-color:  darkgreen;
+    color: white; 
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    margin: 10px;
+}  */
+nav{
+    /* background-color: transparent; */
+    background-color: darkgreen;
+    /* color: white; */
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    color: white;
+
+}
+nav ul li{
+    color: white;
+}
+nav ul li a{
+    margin: 20px;
+    color: rgb(233, 238, 233);
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:hover{
+text-shadow: 2px 4px 6px lightgreen;
+text-decoration: underline;
+}
+.navbar{
+    background-color: transparent;
+    color: darkgreen; 
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+
+}
+
+.navbar img{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+
+}
+
+.gallery{
+    margin: 20px;
+    /* padding-right: 100px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery button:hover{
+    background-color: white;
+    color: black;
+}
+.gall{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.gall button:hover{
+    background-color: white;
+    color: black;
+
+}
+.gallery1{
+    text-align: center;
+    /* padding-right: 100px; */
+}
+
+.gallery1 img{
+    padding: 10px;
+}
+.gallery1 button{
+background-color: green;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+}
+.gallery2{
+    text-align: center;
+
+}
+.gallery2 img{
+    padding: 10px;
+}
+.gallery2 button{
+background-color: green;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+}
+.gallery3{
+    text-align: center;
+    padding-right: 100px;
+
+}
+.gallery3 img{
+    padding: 10px;
+}
+.gallery3 button{
+background-color: green;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+}
+.gallery4{
+    text-align: center;
+}
+.gallery4 img{
+    padding: 10px;
+    height: 500px;
+}
+.gallery4 button{
+background-color: green;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+}
+.gallery5{
+    text-align: center;
+}
+.gallery5 img{
+    padding: 10px;
+}
+.gallery5 button{
+background-color: green;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+}
+.gallery6{
+    text-align: center;
+}
+.gallery6 img{
+    padding: 10px;
+}
+.gallery6 button{
+background-color: green;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+}
+
+
+
+.gallery img{
+    width: 400px;
+    margin: 5px;
+    margin-left: 100px;
+    padding: 5px;
+}
+
+.galleryimg:hover{
+    scale: 1.05;
+}
+.banner{
+    background-image: url(https://images.woodlandworldwide.app/assets//may2024/wdl_shoe_banner.webp);
+width: 100%;;
+height:500px;
+background-size: cover;
+
+}
+#ftr{
+    text-align: center;
+    padding-top: 60px;
+    margin: 20px;
+}
+ftr img{
+width: 100%;
+height: 500px;
+margin: 10px;
+}
+#img{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin: 10px;
+}
+#img button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+#img button:hover{
+    background-color: rgb(16, 185, 50);
+    color: black;
+}
+#bestsellers{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+}
+#bestsellers button{
+background-color: green;
+color: white;
+margin: 5px;
+padding: 5px;
+}
+#bestsellers button:hover{
+background-color: lightgreen;
+color: rgb(21, 20, 20);
+}
+.footer{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 390px;
+
+}
